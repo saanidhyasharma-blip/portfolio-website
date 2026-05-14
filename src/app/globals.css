@@ -9,8 +9,13 @@
   --color-neon-yellow: #fff200;
   --color-neon-green: #39ff14;
   
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-orbitron: var(--font-orbitron);
+  --font-press-start: var(--font-press-start);
+  --font-space-grotesk: var(--font-space-grotesk);
+  
+  --font-sans: var(--font-space-grotesk);
+  --font-heading: var(--font-orbitron);
+  --font-arcade: var(--font-press-start);
 }
 
 :root {
