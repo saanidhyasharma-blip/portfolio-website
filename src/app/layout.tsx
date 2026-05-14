@@ -3,6 +3,8 @@ import { Orbitron, Press_Start_2P, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { LenisProvider } from "@/lib/lenis-provider";
 import CRTOverlay from "@/components/arcade/CRTOverlay";
+import Navbar from "@/components/arcade/Navbar";
+import ArcadeCursor from "@/components/arcade/ArcadeCursor";
 
 const orbitron = Orbitron({
   variable: "--font-orbitron",
@@ -37,6 +39,8 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <CRTOverlay />
+        <ArcadeCursor />
+        <Navbar />
         <LenisProvider>{children}</LenisProvider>
       </body>
     </html>
