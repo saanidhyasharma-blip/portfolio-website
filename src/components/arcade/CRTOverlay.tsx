@@ -31,7 +31,7 @@ export default function CRTOverlay() {
       })
     }
 
-    return () => flicker.kill()
+    return () => { flicker.kill() }
   }, [isGlitched])
 
   return (

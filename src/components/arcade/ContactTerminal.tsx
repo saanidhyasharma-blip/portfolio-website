@@ -28,7 +28,7 @@ export default function ContactTerminal() {
     e.preventDefault()
     if (!input.trim()) return
 
-    const newHistory = [...history, { type: 'input', content: input }]
+    const newHistory: LogEntry[] = [...history, { type: 'input', content: input }]
     const parts = input.trim().split(' ')
     const cmd = parts[0].toLowerCase()
     const args = parts.slice(1).join(' ')
