@@ -7,7 +7,7 @@ Building an immersive, award-worthy portfolio that functions like a futuristic a
 ## Phases
 
 - [x] **Phase 1: Foundation & Boot Experience** - Tech stack setup and the iconic "Initialization" sequence.
-- [ ] **Phase 2: Hero & Cinematic Home** - Building the 3D hologram hero and the "Game Menu" navigation.
+- [x] **Phase 2: Hero & Cinematic Home** - Building the 3D hologram hero and the "Game Menu" navigation.
 - [ ] **Phase 3: Arcade Projects Arena** - Creating the "playable level" project gallery and expansion effects.
 - [ ] **Phase 4: Developer Command Center (GitHub)** - Integrating live data into a futuristic dashboard.
 - [ ] **Phase 5: Arcade Inventory (Skills & Experience)** - Turning resume data into an interactive game inventory.
@@ -42,8 +42,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: Build Hero section with Three.js hologram and typing animations.
-- [ ] 02-02: Implement custom arcade cursor and global navigation menu.
+- [x] 02-01: Build Hero section with Three.js hologram and typing animations.
+- [x] 02-02: Implement custom arcade cursor and global navigation menu.
 
 ### Phase 3: Arcade Projects Arena
 **Goal**: Create the "playable" project gallery.
@@ -105,7 +105,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Boot | 3/3 | Complete | 2026-05-14 |
-| 2. Hero & Cinematic | 0/2 | Not started | - |
+| 2. Hero & Cinematic | 2/2 | Complete | 2026-05-14 |
 | 3. Arcade Projects | 0/2 | Not started | - |
 | 4. GitHub Arena | 0/2 | Not started | - |
 | 5. Arcade Inventory | 0/2 | Not started | - |
