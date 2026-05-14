@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { Home, Briefcase, User, Mail, Database, Terminal } from 'lucide-react'
 
 const NAV_ITEMS = [
-  { name: 'HOME', icon: Home, href: '/' },
+  { name: 'HOME', icon: Home, href: '#home' },
   { name: 'PROJECTS', icon: Briefcase, href: '#projects' },
   { name: 'ARENA', icon: Database, href: '#arena' },
   { name: 'INVENTORY', icon: User, href: '#inventory' },

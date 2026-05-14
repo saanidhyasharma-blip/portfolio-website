@@ -2,21 +2,37 @@
 
 import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
+import { useKonamiCode } from '@/hooks/useKonamiCode'
 
 export default function CRTOverlay() {
   const overlayRef = useRef<HTMLDivElement>(null)
+  const isGlitched = useKonamiCode()
 
   useEffect(() => {
     // Subtle flicker animation to mimic old CRT monitors
-    gsap.to(overlayRef.current, {
-      opacity: 0.96,
-      duration: 0.1,
+    const flicker = gsap.to(overlayRef.current, {
+      opacity: isGlitched ? 0.7 : 0.96,
+      duration: isGlitched ? 0.05 : 0.1,
       repeat: -1,
       yoyo: true,
       ease: "power1.inOut",
       repeatRefresh: true
     })
-  }, [])
+
+    if (isGlitched) {
+      gsap.to(overlayRef.current, {
+        filter: "hue-rotate(90deg) contrast(200%)",
+        duration: 0.1,
+        repeat: 5,
+        yoyo: true,
+        onComplete: () => {
+          gsap.to(overlayRef.current, { filter: "none", duration: 1 })
+        }
+      })
+    }
+
+    return () => flicker.kill()
+  }, [isGlitched])
 
   return (
     <div 

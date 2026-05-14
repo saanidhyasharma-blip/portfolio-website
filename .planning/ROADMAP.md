@@ -8,9 +8,9 @@ Building an immersive, award-worthy portfolio that functions like a futuristic a
 
 - [x] **Phase 1: Foundation & Boot Experience** - Tech stack setup and the iconic "Initialization" sequence.
 - [x] **Phase 2: Hero & Cinematic Home** - Building the 3D hologram hero and the "Game Menu" navigation.
-- [ ] **Phase 3: Arcade Projects Arena** - Creating the "playable level" project gallery and expansion effects.
-- [ ] **Phase 4: Developer Command Center (GitHub)** - Integrating live data into a futuristic dashboard.
-- [ ] **Phase 5: Arcade Inventory (Skills & Experience)** - Turning resume data into an interactive game inventory.
+- [x] **Phase 3: Arcade Projects Arena** - Creating the "playable level" project gallery and expansion effects.
+- [x] **Phase 4: Arcade Inventory (Skills & Experience)** - Turning resume data into an interactive game inventory.
+- [x] **Phase 5: Developer Command Center (GitHub)** - Integrating live data into a futuristic dashboard.
 - [ ] **Phase 6: Contact Terminal & Final Polish** - The terminal contact experience, easter eggs, and deployment.
 
 ## Phase Details
@@ -56,25 +56,12 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 03-01: Build the Project Gallery grid with arcade aesthetics.
-- [ ] 03-02: Implement the cinematic project expansion modal/view with GSAP.
+- [x] 03-01: Build the Project Gallery grid with arcade aesthetics.
+- [x] 03-02: Implement the cinematic project expansion modal/view with GSAP.
 
-### Phase 4: Developer Command Center (GitHub)
-**Goal**: Dynamic data integration and visualization.
-**Depends on**: Phase 3
-**Requirements**: GITA-01, GITA-02, GITA-03, GITA-04
-**Success Criteria**:
-  1. Live repo data is fetched from GitHub API.
-  2. User sees a contribution heatmap and tech stack charts.
-**Plans**: 2 plans
-
-Plans:
-- [ ] 04-01: Setup GitHub API integration and repo card components.
-- [ ] 04-02: Build the contribution heatmap and repo analytics dashboard.
-
-### Phase 5: Arcade Inventory (Skills & Experience)
+### Phase 4: Arcade Inventory (Skills & Experience)
 **Goal**: Narrative-driven about and skills system.
-**Depends on**: Phase 4
+**Depends on**: Phase 3
 **Requirements**: SKEX-01, SKEX-02, SKEX-03, SKEX-04
 **Success Criteria**:
   1. Skills are presented as a game inventory with unlock effects.
@@ -82,8 +69,21 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 05-01: Build the "Arcade Inventory" skills system.
-- [ ] 05-02: Implement the interactive career timeline journey.
+- [x] 04-01: Build the "Arcade Inventory" skills system.
+- [x] 04-02: Implement the interactive career timeline journey.
+
+### Phase 5: Developer Command Center (GitHub)
+**Goal**: Dynamic data integration and visualization.
+**Depends on**: Phase 4
+**Requirements**: GITA-01, GITA-02, GITA-03, GITA-04
+**Success Criteria**:
+  1. Live repo data is fetched from GitHub API.
+  2. User sees a contribution heatmap and tech stack charts.
+**Plans**: 2 plans
+
+Plans:
+- [x] 05-01: Setup GitHub API integration and repo card components.
+- [x] 05-02: Build the contribution heatmap and repo analytics dashboard.
 
 ### Phase 6: Contact Terminal & Final Polish
 **Goal**: Terminal-based contact and easter eggs.
@@ -106,7 +106,7 @@ Plans:
 |-------|----------------|--------|-----------|
 | 1. Foundation & Boot | 3/3 | Complete | 2026-05-14 |
 | 2. Hero & Cinematic | 2/2 | Complete | 2026-05-14 |
-| 3. Arcade Projects | 0/2 | Not started | - |
-| 4. GitHub Arena | 0/2 | Not started | - |
-| 5. Arcade Inventory | 0/2 | Not started | - |
+| 3. Arcade Projects | 2/2 | Complete | 2026-05-14 |
+| 4. Arcade Inventory | 2/2 | Complete | 2026-05-14 |
+| 5. GitHub Arena | 2/2 | Complete | 2026-05-14 |
 | 6. Contact & Polish | 0/3 | Not started | - |

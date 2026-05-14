@@ -23,8 +23,23 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Saanidhya Sharma | Creative Technologist",
-  description: "Arcade-themed portfolio of Saanidhya Sharma",
+  title: "Saanidhya Sharma | Creative Technologist & AI Engineer",
+  description: "Explore the arcade-themed digital arena of Saanidhya Sharma. Featuring AI/ML projects, full-stack development, and immersive web experiences.",
+  keywords: ["Saanidhya Sharma", "Portfolio", "AI Engineer", "Full Stack Developer", "Creative Technologist", "Arcade Portfolio"],
+  openGraph: {
+    title: "Saanidhya Sharma | Developer Arena",
+    description: "Enter the arcade. Explore high-fidelity digital experiences and AI-driven solutions.",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Saanidhya Sharma Portfolio Arena",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

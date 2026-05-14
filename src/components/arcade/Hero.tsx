@@ -17,9 +17,9 @@ const Hologram = dynamic(() => import('./Hologram'), {
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20">
+    <section id="home" className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20 md:pl-28">
       {/* Background Decorative Elements */}
-      <div className="absolute top-20 left-10 opacity-20 hidden lg:block">
+      <div className="absolute top-20 left-28 opacity-20 hidden lg:block">
         <div className="flex items-center gap-2 text-neon-cyan font-mono text-xs mb-1">
           <Cpu size={14} />
           <span>CPU_LOAD: 24%</span>
@@ -85,16 +85,16 @@ export default function Hero() {
             transition={{ delay: 0.8 }}
             className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4"
           >
-            <button className="group relative px-8 py-4 bg-neon-cyan text-black font-bold uppercase tracking-widest flex items-center gap-2 overflow-hidden hover:scale-105 transition-transform active:scale-95">
+            <a href="#contact" className="group relative px-8 py-4 bg-neon-cyan text-black font-bold uppercase tracking-widest flex items-center gap-2 overflow-hidden hover:scale-105 transition-transform active:scale-95">
               <span className="relative z-10 flex items-center gap-2">
                 Connect Terminal <ChevronRight size={18} />
               </span>
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500" />
-            </button>
+            </a>
             
-            <button className="px-8 py-4 border border-white/20 text-white/60 font-bold uppercase tracking-widest flex items-center gap-2 hover:border-neon-magenta hover:text-neon-magenta transition-colors">
+            <a href="#projects" className="px-8 py-4 border border-white/20 text-white/60 font-bold uppercase tracking-widest flex items-center gap-2 hover:border-neon-magenta hover:text-neon-magenta transition-colors">
               <Terminal size={18} /> View Projects
-            </button>
+            </a>
           </motion.div>
         </div>
 
@@ -124,7 +124,7 @@ export default function Hero() {
       </div>
 
       {/* Bottom Status Bar Decoration */}
-      <div className="absolute bottom-10 left-0 w-full px-10 flex justify-between items-end pointer-events-none">
+      <div className="absolute bottom-10 left-0 w-full pl-28 pr-10 flex justify-between items-end pointer-events-none">
         <div className="space-y-1">
           <div className="h-[1px] w-24 bg-neon-cyan/50" />
           <div className="text-[8px] font-mono text-neon-cyan/50 uppercase tracking-[0.5em]">
